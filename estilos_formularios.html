@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Propiedades de texto</title>
+<title>Estilos de formulario</title>
 <link href="https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap" rel="stylesheet">
 <!--Inician los estilos-->
 <style>
@@ -130,7 +130,7 @@ aside#izq {
   height: 453px;
 }
 aside#izq ul li {
-  background: #aaa;
+  background: lightgray;
   margin: 2px 10px;
   padding: 10px;
   list-style: square;
@@ -170,6 +170,53 @@ aside#der {
   top: 0;
   width: 200px;
   height: 453px;
+}
+
+aside#der h1 {
+  font-family: "Kaushan Script", cursive;
+  width: 200px;
+  height: 50px;
+  margin-bottom: 10px;
+  text-align: center;
+  line-height: 50px;
+  background: lightpink;
+  color: lightyellow;
+  border: 1px solid black;
+  margin-left: 5px;
+}
+
+aside#der input {
+  margin: 5px 5px;
+  padding: 10px;
+  border: 1px solid black;
+  width: 179px;
+}
+
+aside#der input[type="text"] {
+  background-image: url(./img/usuario.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+}
+
+aside#der input[type="password"] {
+  background-image: url(./img/password.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+}
+
+aside#der input[type="email"] {
+  background-image: url(https://thumbs.dreamstime.com/b/icono-del-vector-correo-email-ejemplo-sobre-s%C3%ADmbolo-de-direcci%C3%B3n-para-la-web-los-contactos-o-carta-comercial-comunicaci%C3%B3n-135062044.jpg);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+}
+
+aside#der input[type="submit"] {
+  width: 115px;
+  margin: 5px 5px;
+  padding: 10px;
 }
 
 footer {
@@ -258,6 +305,7 @@ footer {
       <input type="text" placeholder="Usuario">
       <input type="password" placeholder="Contraseña">
       <input type="email" placeholder="Email">
+      <center><input type="submit" value="Enviar"></center>
     </form>
   </aside>
 </section>
