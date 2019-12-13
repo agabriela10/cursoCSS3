@@ -42,6 +42,15 @@ header {
   line-height: 60px;
 }
 
+header img {
+  position: absolute;
+  top: 0.5px;
+  left: 10px;
+  bottom: 60px;
+  width: 250px;
+  height: 60px;
+}
+
 .redes {
   position: absolute;
   width: 42px;
@@ -56,7 +65,15 @@ header {
 #icono1 {
   top: 42px;
   right: 120px;
-  background: lightgreen;
+}
+
+header div#icono1 img {
+  position: absolute;
+  width: 42px;
+  height: 40px;
+  border-radius: 100%;
+  right: 150px;
+  left: 0.5px;
 }
 
 #icono2 {
@@ -65,10 +82,30 @@ header {
   background: lightblue;
 }
 
+header div#icono2 img {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 80%;
+  right: 160px;
+  left: -3.5px;
+  bottom: 60px;
+  top: -10px;
+}
+
 #icono3 {
   top: 42px;
   right: 19px;
-  background: lightpink;
+}
+
+header div#icono3 img {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  border-radius: 100%;
+  right: 20px;
+  left: -4px;
+  top: -3px;
 }
 
 nav {
@@ -88,6 +125,7 @@ nav {
   text-align: center;
   line-height: 45px;
   color: lightyellow;
+  font-size: 20px;
 }
 
 a .botones:hover {
@@ -124,12 +162,13 @@ a .botones:active {
   border-radius: 90%;
 }
 
-#top ul li h1 {
+#top ul li .titulo {
   font-family: "Kaushan Script", cursive;
+  font-size: 17px;
 }
 
-#top ul li p {
-  font-size: 14px;
+#top ul li .descripcion {
+  font-size: 15px;
   margin: 10px;
 }
 
@@ -182,7 +221,7 @@ article {
  }
 
  article p {
-   font-size: 14px;
+   font-size: 17.5px;
    margin: 5px 20px;
    text-align: justify;
  }
@@ -197,13 +236,14 @@ aside#der {
 
 aside#der h1 {
   font-family: "Kaushan Script", cursive;
+  font-size: 18px;
   width: 200px;
   height: 50px;
   margin-bottom: 10px;
   text-align: center;
   line-height: 50px;
   background: lightpink;
-  color: lightyellow;
+  color: black;
   border: 1px solid black;
   margin-left: 5px;
 }
